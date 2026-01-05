@@ -21,4 +21,18 @@ ul{
     color:red;
     padding: 15px;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    max-width: 1000px;
+    margin:auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
