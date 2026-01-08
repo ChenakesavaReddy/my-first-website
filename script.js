@@ -5,7 +5,19 @@ let s=true;
 console.log(s)
 console.log("Name: ",name);
 console.log("Age: ",age);
-console.log("Goal:",goal);
 
+function calculateAge(age){
+    return age+1;
+}
+console.log(calculateAge(age));
+
+console.log("Goal:",goal);
 age=age+1;
 console.log("Next Year Age: ",age);
+
+function greet(name){
+    console.log("Hello, " + name + "!");
+}
+greet(name);
+
+
